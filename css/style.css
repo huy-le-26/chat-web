@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.wrapContent {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    /* height: 100vh; */
+    margin-top: 10%;
+}
+
+img {
+    width: 40%;
+}
+
+.form {
+    line-height: 2;
+}
+
+.infor input {
+    outline: none;
+    /* padding: 5px 10px; */
+    border: none;
+    width: 300px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.inputDiv {
+    display: flex;
+    border-radius: 1px solid rgb(173, 173, 173);
+    align-items: center;
+    margin: 30px 0px;
+}
+
+/* .passDiv {
+    display: flex;
+    border-bottom: 1px solid rgb(173, 173, 173);
+    align-items: center;
+    margin: 30px 0px;
+} */
+
+.check span {
+    margin-left: 10px;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.btn {
+    transition: box-shadow .4s;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: skyblue;
+    color: whitesmoke;
+    font-size: 16px;
+    /* margin: 30px 0px; */
+}
+
+.btn:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.socials a {
+    text-align: center;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    font-size: 18px;
+    color: #00a8ff;
+    border: 1px solid #efefef;
+    border-radius: 20%;
+    margin: 0px 10px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.socials a:hover {
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #00a8ff;
+    border-color: #00a8ff;
+}
+
+.rule {
+    margin-left: 4px;
+}
+
+.rule a {
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    border-bottom: 1px solid #353b48;
+}
+
+/* Validate */
+
+.error {
+    margin-left: 15px;
+    font-size: 14px;
+    color: red;
+}
+
+.checkmark {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.checkmark_circle {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-color: green;
+    border-radius: 11px;
+    left: 0;
+    top: 0;
+}
+
+.checkmark_stem {
+    position: absolute;
+    width: 3px;
+    height: 9px;
+    background-color: #fff;
+    left: 11px;
+    top: 6px;
+}
+
+.checkmark_kick {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color: #fff;
+    left: 8px;
+    top: 12px;
+}
+
+/* ========= CREATE CONVERSATION ============ */
+
+.title {
+    font-size: 24px;
+}
+
+.btnCreateConversation {
+    width:  50px;
+  
+    height: 100px;
+}
+
+.btnCreateConversation button {
+    transition: box-shadow .4s;
+    /* border-radius: 10px; */
+    border: none;
+    padding: 10px 15px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 50px;
+    background-color: skyblue;
+    color: whitesmoke;
+    font-size: 16px;
+    margin-top: 20px;
+    margin:10px 50%;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn button{
+margin: 0 20px;
+border-radius: 10px solid black;
+}
+
+.square {
+    border-right:1px solid #353b48;
+}
+.hiddenForm {
+    line-height: 3;
+    font-size: 19px;
+    width: 200px;
+    
+}
+
+.conversationNameInput {
+    border-bottom: 1px solid rgb(173, 173, 173);
+    align-items: center;
+
+}
+
+.conversationNameInput input {
+    outline: none;
+    /* padding: 5px 10px; */
+    border: none;
+    width: 300px;
+    font-size: 20px;
+    /* margin-left: 15px; */
+}
+
+/* ========= Chat =========== */
+
+.header {
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+}
+
+.owner-message{
+    text-align: right;
+}
+
+.left-content {
+    flex: 1;
+}
+
+.right-content {
+    flex: 2;
+}
+
+.right__main-content {
+    display: flex;
+    width: 100%;
+}
+
+.right__main-content > .chat-container{
+    flex: 2;
+}
